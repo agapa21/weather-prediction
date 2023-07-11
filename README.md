@@ -1,4 +1,4 @@
-In our project we used neural networks feedforward. Information flows only in one direction - from input to output. We used the TensorFlow framework to create neural networks. We created Sequential model, in which we defined the layers of the network:
+In our project we used feedforward neural networks. Information flows only in one direction - from input to output. We used the TensorFlow framework to create neural networks and created Sequential model, in which we defined the layers of the network:
 * input layer, accepting input data,
 * hidden layers, relu activation function,
 * output layer, number of neurons 27 (equal to the number of classes, i.e. different values in output column), softmax activation function,
