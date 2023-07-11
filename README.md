@@ -2,7 +2,8 @@ In our project we used feedforward neural networks. Information flows only in on
 * input layer, accepting input data,
 * hidden layers, relu activation function,
 * output layer, number of neurons 27 (equal to the number of classes, i.e. different values in output column), softmax activation function,
+
 Then, using the model.compile function, we assumed the parameters of the network:
-* loss sparse_categorical_crossentrop function
-* adam optimizer
-* accuracy and sparse_categorical_crossentropy metrics
+* loss sparse_categorical_crossentrop function,
+* adam optimizer,
+* accuracy and sparse_categorical_crossentropy metrics,
